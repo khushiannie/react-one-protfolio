@@ -8,6 +8,8 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
 import mongodb from "../assets/mongo.png";
+import express from "../assets/express.png";
+
 
 
 const Experience = () => {
@@ -58,6 +60,12 @@ const Experience = () => {
       id: 8,
       src: github,
       title: "GitHub",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 9,
+      src: express,
+      title: "ExpressJs",
       style: "shadow-gray-400",
     },
   ];
